@@ -4,5 +4,11 @@
 
 ``` shell
 npm install
-vusion dev
+npm run dev
+```
+
+## Build
+
+``` shell
+npm run build
 ```
