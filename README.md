@@ -1,9 +1,14 @@
 # Vusion Web App
 
-## Development
+## Install
 
 ``` shell
 npm install
+```
+
+## Development
+
+``` shell
 npm run dev
 ```
 
