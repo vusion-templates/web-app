@@ -14,23 +14,6 @@
             <u-button>评论</u-button>
         </u-badge>
     </u-linear-layout>
-    <u-linear-layout>
-        <u-capsules>
-            <u-capsule>Apple</u-capsule>
-            <u-capsule>Banana</u-capsule>
-            <u-capsule>Cake</u-capsule>
-        </u-capsules>
-        <u-pills>
-            <u-pill>Apple</u-pill>
-            <u-pill>Banana</u-pill>
-            <u-pill>Cake</u-pill>
-        </u-pills>
-        <u-tablets>
-            <u-tablet>Apple</u-tablet>
-            <u-tablet>Banana</u-tablet>
-            <u-tablet>Cake</u-tablet>
-        </u-tablets>
-    </u-linear-layout>
     <u-tabs>
         <u-tab title="详细信息"><u-loading></u-loading></u-tab>
         <u-tab title="性能监控"><u-loading></u-loading></u-tab>
