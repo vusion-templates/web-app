@@ -5,7 +5,9 @@
     "dev": "vusion-dev",
     "build": "vusion-build",
     "serve": "vusion-serve",
-    "dll": "webpack --config webpack.dll.config.js",
+    "productDll": "./node_modules/.bin/webpack --config webpack.dll.config.js --env.NODE_ENV production",
+    "devDll": "./node_modules/.bin/webpack --config webpack.dll.config.js --env.NODE_ENV deployment",
+    "dll": "npm run productDll && npm run devDll",
     "lint": "eslint --fix ./src/**/*.{js,vue}",
     "precommit": "node node_modules/vusion-hooks/precommit"
   },
