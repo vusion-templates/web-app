@@ -6,14 +6,30 @@
 npm install
 ```
 
-## Development
+## Commands
+### Development
 
 ``` shell
-npm run dev
+npm run serve
 ```
 
-## Build
+### Build
 
 ``` shell
 npm run build
 ```
+
+### Test
+
+``` shell
+npm run test
+```
+
+### Lint
+
+``` shell
+npm run lint
+```
+
+## Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Local env files
+.env.local
+.env.*.local
+
 # Locks
 package-lock.json
 yarn.lock
@@ -21,8 +25,13 @@ yarn.lock
 node_modules/
 
 # Editors
-.vscode/
-.idea/
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Build Output
 public/
