@@ -21,13 +21,11 @@
     "@vue/cli-plugin-babel": "^3.10.0",
     "@vue/cli-plugin-eslint": "^3.10.0",
     "@vue/cli-service": "^3.10.0",
-    "add-asset-html-webpack-plugin": "^2.1.3",
     "chai": "^4.2.0",
     "eslint": "^5.15.3",
     "eslint-config-vusion": "^3.0.1",
-    "html-webpack-plugin": "^3.0.7",
     "husky": "^0.14.3",
-    "vue-cli-plugin-vusion": "^0.1.0",
+    "vue-cli-plugin-vusion": "^0.5.1",
     "vusion-hooks": "^0.2.1"
   }
 }

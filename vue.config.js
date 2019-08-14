@@ -1,5 +1,4 @@
 module.exports = {
-    outputDir: 'public',
     pages: {
         index: {
             entry: './src/views/index/index.js',
