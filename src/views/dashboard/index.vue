@@ -33,8 +33,8 @@ export default {
     top: 0;
     right: 0;
     left: 0;
-    height: $navbar-height;
-    background: $brand-primary;
+    height: var(--navbar-height);
+    background: var(--brand-primary);
     color: white;
     box-shadow: 0 3px 4px rgba(0,0,0,0.1);
     padding: 0 10px;
